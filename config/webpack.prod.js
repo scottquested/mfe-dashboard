@@ -7,7 +7,7 @@ const prodConfig = {
 	mode: "production",
 	output: {
 		filename: "[name].js",
-		publicPath: "/",
+		publicPath: "/dashboard/",
 	},
 	plugins: [
 		new ModuleFederationPlugin({
